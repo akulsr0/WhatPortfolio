@@ -19,10 +19,9 @@ import { useHistory } from "react-router-dom";
 import InvestmentCard from "../../components/InvestmentCard/InvestmentCard";
 import { useAppContext } from "../../contexts/AppContext";
 import { IInvestment } from "../../types";
+import { getFormattedAmount } from "../../utils";
 
 import "./Portfolio.css";
-import { CURRENCY_SYMBOL } from "../../constants";
-import { getFormattedAmount } from "../../utils";
 
 const Portfolio: React.FC = () => {
   const { investments, setInvestments } = useAppContext();
