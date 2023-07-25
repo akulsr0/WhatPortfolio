@@ -1,0 +1,51 @@
+.investment-card {
+  width: 100%;
+  padding: 16px 12px 12px;
+  box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.25);
+}
+
+.investment-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.investment-header > strong {
+  font-size: large;
+}
+
+.investment-asset-type {
+  background: antiquewhite;
+  font-size: small;
+  padding: 4px 6px;
+  border-radius: 16px;
+}
+
+.investment-stats-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 6px;
+  grid-column-gap: 16px;
+}
+
+.investment-stat {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.investment-stat > strong {
+  min-width: 80px;
+  color: #222428ee;
+}
+
+.investment-stat > span[data-isprofit="true"] {
+  color: #26c281;
+  font-weight: 700;
+}
+
+.investment-stat > span[data-isprofit="false"] {
+  color: #f22613;
+  font-weight: 700;
+}

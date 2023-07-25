@@ -1,0 +1,21 @@
+.consolidated-wrapper {
+  margin-bottom: 6px;
+  padding: 12px;
+}
+
+.consolidated-amount-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 8px;
+}
+
+.consolidated-amount-wrapper > h3 {
+  margin: 0;
+}
+
+.consolidated-returns-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+}
