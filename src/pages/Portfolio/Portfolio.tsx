@@ -67,14 +67,6 @@ const Portfolio: React.FC = () => {
   ).toFixed(2);
   const isConsolidatedProfit = totalReturns >= 0;
 
-  console.log("DEBUG", {
-    totalInvestedAmount,
-    totalCurrentAmount,
-    totalReturns,
-    totalReturnsPerc,
-    isConsolidatedProfit,
-  });
-
   return (
     <IonPage>
       <IonHeader>
